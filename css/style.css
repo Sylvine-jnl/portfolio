@@ -1,0 +1,78 @@
+/*GENERAL*/
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+  }
+
+  /*----BROWN SIDE----*/
+  .side1{
+    width: 40%;
+    height: 100vh;
+    background-color: #C2A595;
+  }
+
+  #logo{
+    height: 12vh;
+    padding: 15px;
+  }
+
+  /*----CENTER----*/
+
+  .rectangle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45vh;
+    height: 60vh;
+    margin-left: -8%;
+    margin-top: 20vh;
+    background-color: white;
+    position: relative;
+    box-shadow: -10px 9px 10px rgb(0 0 0 / 19%);
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .button{
+    background-color: #E4D7D0;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #profil{
+    object-fit: cover;
+    height: 40vh;
+    margin-left: 30px;
+  }
+
+  #projects-link{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*----WHITE SIDE----*/
+  .side {
+    width: 40%;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  #information{
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+  }
+
+  #name{
+    font-family: 'Parisienne', cursive !important;
+    font-size: 70px;
+    color: #C2A595;
+  }
