@@ -1,4 +1,4 @@
-/*GENERAL*/
+  /*GENERAL*/
   body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -6,13 +6,13 @@
   }
 
   /*----BROWN SIDE----*/
-  .side1{
+  .side1 {
     width: 40%;
     height: 100vh;
     background-color: #C2A595;
   }
 
-  #logo{
+  #logo {
     height: 12vh;
     padding: 15px;
   }
@@ -38,7 +38,7 @@
     margin-top: 50px;
   }
 
-  .button{
+  .button {
     background-color: #E4D7D0;
     color: black;
     padding: 10px 25px;
@@ -47,13 +47,13 @@
     cursor: pointer;
   }
 
-  #profil{
+  #profil {
     object-fit: cover;
     height: 40vh;
     margin-left: 30px;
   }
 
-  #projects-link{
+  #projects-link {
     text-decoration: none;
     color: black;
   }
@@ -65,14 +65,94 @@
     background-color: #fff;
   }
 
-  #information{
+  #information {
     display: flex;
-    justify-content: center;
-    margin-top: 40vh;
-  }
-
-  #name{
-    font-family: 'Parisienne', cursive !important;
-    font-size: 70px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 35vh;
     color: #C2A595;
   }
+
+  #name {
+    font-family: 'Parisienne', cursive !important;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .main-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .contact{
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .contact ul li {
+    list-style-type: none;
+  }
+
+  .contact ul li a {
+    text-decoration: none;
+    color: #C2A595;
+  }
+
+  .icones-filter{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .fa-2x {
+    font-size: 35px;
+    padding-right: 15px;
+  }
+
+  .fa-mobile-alt{
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    padding-right: 15px;
+  }
+
+  @media all and (min-width: 769px) and (max-width: 1200px){
+    .rectangle{
+    width: 25vh;
+    height: 35vh;
+    margin-left: -25%;
+    margin-top: 25vh;
+    margin-right: 35px;
+    }
+
+    #profil{
+      height: 20vh;
+    }
+
+    #name{
+      font-size: 55px;
+    }
+
+    .main-title{
+      font-size: 25px;
+    }
+
+    .contact{
+      font-size: 20px;
+    }
+
+    .fa-2x {
+      font-size: 20px;
+    }
+
+    .fa-mobile-alt{
+      font-size: 20px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  /* @media all and (max-width: 768px){
+
+  } */
