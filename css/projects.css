@@ -22,7 +22,7 @@ h1{
     text-decoration: none;
     color: black;
     display: flex;
-    width: 50%;
+    width: 80%;
 }
 
 .carte
@@ -44,7 +44,11 @@ h1{
 }
 
 .title{
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+.description{
+    font-size: 20px;
 }
 
 .project-img{
@@ -113,7 +117,7 @@ h1{
 }
 
 .individual-project{
-    width: 80%;
+    width: 95%;
 }
 
 .title{
@@ -121,7 +125,7 @@ h1{
 }
 
 .project-img{
-    width: 70%;
+    width: 90%;
 }
 
 }
@@ -147,6 +151,10 @@ h1{
 
 .title{
     font-size: large;
+}
+
+.description{
+    font-size: 15px;
 }
 
 .project-img{
