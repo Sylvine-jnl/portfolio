@@ -5,6 +5,10 @@
     display: flex;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   /*----BROWN SIDE----*/
   .side1 {
     width: 40%;
@@ -215,10 +219,10 @@
     }
 
     .rectangle{
-      width: 20vh;
+      width: 40vw;
       height: 27vh;
       position: absolute;
-      margin-left: 27%;
+      margin-left: 28vw;
       padding: 10px;
     }
 
